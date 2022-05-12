@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+}
+
+
+.background{
+    
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.logo{
+    color: aliceblue;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px 30px;
+}
+
+.logo span{
+    font-size: 60px;
+    color: red;
+    font-family: serif;
+
+}
+
+.navbar {
+    display: flex;
+}
+
+.navbar ul{
+    display: flex;
+    list-style: none;
+    
+    /* margin: 0px 13rem; */
+
+    
+}
+
+.navbar li{
+    font-size: 30px;
+    padding-top: 2rem;
+    margin:0px  2rem;
+}
+
+.navbar a{
+    text-decoration: none;
+    font-family: serif;
+    /* margin: 0px 10px; */
+    color: red;
+}
+
+.login a{
+    text-align: center;
+    width: 7%;
+    font-size: 35px;
+    border: 2px solid transparent;
+    font-family: serif;
+    border-radius: 5px;
+    position: absolute;
+    /* left: 84rem; */
+    margin: 1px 30rem;
+    font-weight: bold;
+    /* background-color: white; */
+    transition: transform  .4s;
+}
+
+.login a:hover{
+    background-color: white;
+    transform: scale(1.1);
+    border-radius:1rem;
+
+}
+
+.details a{
+    color: white;
+    position: absolute;
+    top: 18rem;
+    font-family: serif;
+    font-size: 3rem;
+    left: 15rem;
+}
+
+.details h2{
+    color: white;
+    position: absolute;
+    top: 22rem;
+    font-family: serif;
+    font-size: 3rem;
+    left: 25rem;
+}
+
+
+.details h3{
+    color: white;
+    position: absolute;
+    top: 25rem;
+    font-family: serif;
+    font-size: 4rem ;
+    left: 9rem;
+}
+
+.btn a{
+    color: black;
+    position: absolute;
+    top: 31rem;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-family: serif;
+    left: 20rem;
+    list-style: none;
+    text-decoration: none;
+    border: 2px solid transparent;
+    box-shadow: 0px 0px 5px red,0px 0px 5px black;
+
+    background-color: white;
+    border-radius: 5px ;
+    padding: 2px 12px;
+  transition: transform  .4s;
+}
+
+.btn a:hover{
+    background-color: white;
+    transform: scale(1.1);
+
+}
+
+.btn a span{
+    font-size: 40px;
+    color: red;
+    font-family: serif;
+    font-weight: bold;
+}
+
+
+
+
+
+
+@media (max-width: 768px){
+
+    .navbar{
+        display: block;
+    }
+
+    .login{
+            color: red;
+    }
+
+    .login span{
+        color: white;
+    }
+
+}
+
